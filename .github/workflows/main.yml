@@ -6,17 +6,21 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: '22' # Version stable recommandée pour Gatsby en 2026
+
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps # Force l'installation malgré les vieux plugins
+
       - name: Build
         run: npm run build
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
