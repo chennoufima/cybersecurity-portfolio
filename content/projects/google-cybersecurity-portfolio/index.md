@@ -15,4 +15,4 @@ company: 'Google Certificate'
 showInProjects: true
 ---
 
-Hands-on cybersecurity portfolio built during the Google Cybersecurity Certificate program. Covers professional statements, security risk audits, network incident analysis, and Linux/SQL-based security investigations.
+Hands-on cybersecurity portfolio built during the Google Cybersecurity Professional Certificate. Covers security risk audits, network incident analysis, and Linux/SQL-based investigations.
