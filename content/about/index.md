@@ -1,28 +1,20 @@
-# Hi, I'm Faouzi 👋 
-
-### IT Specialist | Aspiring Cybersecurity Analyst | 6+ Years IT Operations
-
-I am an experienced IT professional with a 6-year track record in helpdesk, knowledge management, and incident response. I am currently bridging my extensive background in ITIL-driven operations with technical cybersecurity expertise.
-
+---
+title: "About Me"
+avatar: "./me.jpg"
+skills:
+  - Google Cybersecurity Cert
+  - CompTIA Security+ (In Progress)
+  - pfSense & Suricata
+  - ITIL v4 & Incident Management
+  - Python & Linux
+  - Jira & Confluence
 ---
 
-## 🛡️ Cybersecurity Focus
-I am currently completing the **Google Cybersecurity Professional Certificate**, focusing on:
+I am an experienced IT professional with a **6-year track record** in helpdesk, knowledge management, and incident response. Currently, I am bridging my extensive background in ITIL-driven operations with technical cybersecurity expertise.
+
+I am finishing the **Google Cybersecurity Professional Certificate**, with a heavy focus on:
 * **Network Security:** Configuring firewalls (pfSense) and implementing IDS/IPS (Suricata).
 * **Threat Intelligence:** Analyzing logs and identifying vulnerabilities.
-* **Automation:** Using Python and Linux to streamline security tasks.
 * **Compliance:** Applying NIST and ISO frameworks to organizational security.
 
-## 🛠️ Technical Toolkit
-* **Security:** CompTIA Security+ (In Progress), SIEM tools, Firewall Management.
-* **IT Ops:** ITIL v4, Jira, Confluence, Knowledge Management.
-* **Systems:** Linux, Windows Server, Network Architecture.
-* **Projects:** Currently building an AI-integrated companion robot and home lab environments.
-
-## 📈 Featured Projects
-* [Project Name 1] - Brief 1-sentence description.
-* [Project Name 2] - Brief 1-sentence description.
-
----
-
-📫 **How to reach me:** [Link to your LinkedIn]
+Beyond security, I’m a builder at heart—currently developing an **AI-integrated companion robot** to explore the intersection of hardware automation and secure AI logic.
