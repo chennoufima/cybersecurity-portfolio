@@ -1,13 +1,13 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+date: '2024-03-29'
+title: 'IT Specialist & Knowledge Manager'
+company: 'IT Service Management'
+location: 'Tunisia'
+range: '2019 - TODAY'
+url: 'https://www.linkedin.com/in/mohamed-aymen-chennoufi-knowledgemanager-servicedesk-itilv4'
 ---
 
-- Developed and styled interactive web applications for Apple Music using Ember and SCSS
-- Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integrations
-- Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback
-- Contributed extensively to the creation of MusicKit JS, a public-facing JavaScript SDK for embedding Apple Music players into web applications
+- Led Knowledge Management initiatives using **ITIL v4** frameworks to improve Service Desk resolution rates and documentation accuracy.
+- Managed complex incident lifecycles within **Jira and Confluence**, ensuring high-priority issues were resolved within strict SLA timelines.
+- Optimized technical support workflows for a team of specialists, focusing on reducing "time-to-resolution" for critical infrastructure tasks.
+- Facilitated cross-functional collaboration to document security protocols and standard operating procedures (SOPs).
