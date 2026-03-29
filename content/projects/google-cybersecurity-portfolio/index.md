@@ -16,3 +16,13 @@ showInProjects: true
 ---
 
 Hands-on cybersecurity portfolio built during the Google Cybersecurity Professional Certificate. Covers security risk audits, network incident analysis, and Linux/SQL-based investigations.
+```
+
+**3.** Commit → le build repart automatiquement.
+
+---
+
+**Important :** vérifie aussi que le fichier actuel ne contient pas une ligne comme :
+```
+tags:
+  - cybersecurity
