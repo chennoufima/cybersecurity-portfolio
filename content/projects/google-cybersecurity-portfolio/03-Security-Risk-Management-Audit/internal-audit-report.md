@@ -1,6 +1,6 @@
 # Botium Toys: Internal Security Audit Report
 **Prepared by:** Mohamed Aymen Chennoufi
-**Date:** [Insert Date]
+**Date:** 01/2026
 
 ## 1. Scope and Goals
 **Scenario:** Botium Toys is a small but growing company that needs to ensure its security controls are robust enough to protect customer data and meet regulatory requirements.
