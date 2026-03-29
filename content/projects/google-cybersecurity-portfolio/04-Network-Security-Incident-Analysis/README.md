@@ -1,14 +1,14 @@
 # Network Security & Incident Analysis
+**Analyst:** Mohamed Aymen Chennoufi
 
 ## Overview
-This folder documents my ability to analyze network traffic, identify malicious patterns, and apply the **NIST Cybersecurity Framework (CSF)** to manage incidents. Using tools like Wireshark and tcpdump, I practiced isolating attack vectors such as DDoS and unauthorized access attempts.
+This folder showcases my ability to protect network architecture and respond to live threats. Utilizing the **NIST Cybersecurity Framework**, I analyzed a security breach, documented the impact, and proposed hardening strategies like firewall optimization and VPN deployment.
 
-## Technical Skills Demonstrated
-- **Traffic Analysis:** Examining PCAP files for suspicious TCP/IP flags and ICMP floods.
-- **Incident Response:** Following the NIST CSF lifecycle (Identify, Protect, Detect, Respond, Recover).
-- **Network Hardening:** Implementing Firewalls, VPNs, and IDS/IPS (Suricata) rules.
+## Technical Skills
+- **Protocol Analysis:** Identifying malicious traffic patterns (TCP, UDP, ICMP).
+- **Network Hardening:** Configuring Firewalls and Intrusion Detection Systems (IDS).
+- **Incident Lifecycle:** Managing the flow from detection to recovery.
 
-## Projects & Artifacts
-1. **[NIST CSF Incident Report](./nist-incident-report.md)**: A professional post-mortem analysis of a security breach.
-2. **[Network Hardening Assessment](./network-hardening.md)**: A strategic guide on securing network architecture.
-3. **[Packet Capture Analysis](./packet-analysis.md)**: Documentation of Wireshark/tcpdump findings.
+## Projects
+- **[NIST CSF Incident Report](./nist-incident-report.md)**: Detailed post-mortem of a network attack.
+- **[Network Hardening Strategy](./hardening-strategy.md)**: Best practices for securing organizational infrastructure.
