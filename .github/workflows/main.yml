@@ -7,9 +7,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Ces deux lignes permettent de passer outre les restrictions de version de 2026
+      # Nécessaire pour les vieux plugins Gatsby et OpenSSL en 2026
+      NODE_OPTIONS: "--openssl-legacy-provider"
       ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
-      NODE_OPTIONS: "--openssl-legacy-provider" 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -17,13 +17,16 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '18' # Version idéale pour les vieux projets Gatsby
+          node-version: '14.21.3' # Version exacte recommandée dans le template d'origine
+
+      - name: Install Yarn
+        run: npm install -g yarn
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: yarn install --frozen-lockfile
 
       - name: Build
-        run: npm run build
+        run: yarn build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
