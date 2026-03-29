@@ -1,29 +1,31 @@
 name: Gatsby Publish
+
 on:
   push:
     branches:
       - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Nécessaire pour les vieux plugins Gatsby et OpenSSL en 2026
       NODE_OPTIONS: "--openssl-legacy-provider"
       ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '14.21.3' # Version exacte recommandée dans le template d'origine
+          node-version: '18'   # Node 18 LTS + openssl-legacy-provider gère les vieux plugins Gatsby
 
       - name: Install Yarn
         run: npm install -g yarn
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install       # sans --frozen-lockfile si tu n'as pas de yarn.lock
 
       - name: Build
         run: yarn build
