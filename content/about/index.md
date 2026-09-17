@@ -2,8 +2,8 @@
 title: "About Me"
 avatar: "./me.jpg"
 skills:
-  - Google Cybersecurity Cert
-  - CompTIA Security+ (In Progress)
+  - Google Cybersecurity Cert (In Progress — expected [10/2026])
+  - CompTIA Security+ (In Progress — expected [12/2026])
   - pfSense & Suricata
   - ITIL v4 & Incident Management
   - Python & Linux
